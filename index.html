@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>practice</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 사이드쪽 메뉴바 표시 -->
+  <header>
+    <!-- 로고 -->
+    <div class="logo animate__animated animate__delay-500ms animate__fadeInUp">LOGO</div>
+    <!-- 메뉴 -->
+    <ul class="sideNav animate__animated animate__delay-1s animate__fadeInUp">
+      <li>
+        <a href="#">Product</a>
+        <!-- 메뉴 안의 서브 메뉴 -->
+        <ul class="subnav">
+          <li><a href="#">상품1</a></li>
+          <li><a href="#">상품2</a></li>
+          <li><a href="#">상품3</a></li>
+          <li><a href="#">상품4</a></li>
+        </ul>
+      </li>
+      <li>
+        <!-- LOOP -->
+        <a href="#">hobby</a>
+        <ul class="subnav">
+          <li><a href="#">상품1</a></li>
+          <li><a href="#">상품2</a></li>
+          <li><a href="#">상품3</a></li>
+          <li><a href="#">상품4</a></li>
+        </ul>
+      </li>
+      <li>
+        <!-- LOOP -->
+        <a href="#">gallery</a>
+        <ul class="subnav">
+          <li><a href="#">상품1</a></li>
+          <li><a href="#">상품2</a></li>
+          <li><a href="#">상품3</a></li>
+          <li><a href="#">상품4</a></li>
+        </ul>
+      </li>
+      <li>
+        <!-- LOOP -->
+        <a href="#">contact</a>
+        <ul class="subnav">
+          <li><a href="#">상품1</a></li>
+          <li><a href="#">상품2</a></li>
+          <li><a href="#">상품3</a></li>
+          <li><a href="#">상품4</a></li>
+        </ul>
+      </li>
+      <li>
+        <!-- LOOP -->
+        <a href="#">방명록</a>
+        <ul class="subnav">
+          <li><a href="#">상품1</a></li>
+          <li><a href="#">상품2</a></li>
+          <li><a href="#">상품3</a></li>
+          <li><a href="#">상품4</a></li>
+        </ul>
+      </li>
+    </ul>
+    <!-- 페이지 하단의 sns 아이콘 -->
+    <div class="snsbox animate__animated animate__delay-1s animate__fadeInUp         ">
+      <a href="#"><i class="fab fa-facebook-square"></i></a>
+      <a href="#"><i class="fab fa-twitter-square"></i></a>
+      <a href="#"><i class="fab fa-instagram-square"></i></a>
+    </div>
+  </header>
+  <!-- 컨텐츠를 포함하는 섹션 1 -->
+  <section class="section">
+    <article class="article animate__animated animate__delay-500s animate__fadeInUp">
+      <div class="imgBox" >
+        <img src="img/cloud1.jpg" alt="cloud1">
+      </div>
+      <div class="imgBox">
+        <img src="img/cloud2.jpg" alt="cloud2">
+      </div>
+      <div class="imgBox">
+        <img src="img/cloud3.jpg" alt="cloud3">
+      </div>
+      <a href="javascript:void(0)" onclick="goslide(-1)"><i class="fas fa-angle-left"></i></a>
+      <a href="javascript:void(0)" onclick="goslide(1)"><i class="fas fa-angle-right"></i></a>
+      <ul id="paging">
+        <li class="pg"></li>
+        <li class="pg"></li>
+        <li class="pg"></li>
+      </ul>
+    </article>
+  </section>
+  <!-- 다른 컨테츠들 포함하는 섹션 2 -->
+  <section class="section animate__animated animate__delay-1s animate__fadeInUp">
+    <div class="col-75">
+      <div class="col-50 border">
+        <div class="imgtextcontainer">
+          <!-- <div class="imgBox"> -->
+            <img src="img/01.jpg" alt="model">
+          <!-- </div> -->
+          <div class="onlytext">
+            <h2>Lorem, ipsum dolor lat et non voluptate nam </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet accusamus quas</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-50">
+        <div class="imgtextcontainer">
+          <div class="threeboxes clearfix">
+            <div class="smallImgbox float-left">
+              <img src="img/dog.jpg" alt="dog">
+            </div>
+            <div class="textnextimg float-left">
+              <h4>dfsldfjsdl</h4>
+              <p>
+                <span class="hash">보배</span><span class="hash">사랑</span>
+                <span class="date">2021.7.26</span>
+              </p>
+            </div>
+          </div>
+          <div class="threeboxes clearfix">
+            <div class="smallImgbox float-left">
+              <img src="img/flower.jpg" alt="flower">
+            </div>
+            <div class="textnextimg float-left">
+              <h4>dfsldfjsdl</h4>
+              <p>
+                <span class="hash">보배</span><span class="hash">사랑</span>
+                <span class="date">2021.7.26</span>
+              </p>
+            </div>
+          </div>
+          <div class="threeboxes clearfix">
+            <div class="smallImgbox float-left">
+              <img src="img/tree.jpg" alt="tree">
+            </div>
+            <div class="textnextimg float-left">
+              <h4>dfsldfjsdl</h4>
+              <p>
+                <span class="hash">보배</span><span class="hash">사랑</span>
+                <span class="date">2021.7.26</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-25">
+      퀵메뉴, etc
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
